@@ -1,4 +1,4 @@
-import App, { Container } from 'next/app'
+import App, { Container } from 'next/app';
 import Page from '../components/Page';
 
 export class MyApp extends App {
@@ -10,8 +10,8 @@ export class MyApp extends App {
           <Component />
         </Page>
       </Container>
-    )
+    );
   }
 }
 
-export default MyApp
+export default MyApp;
