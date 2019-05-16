@@ -52,7 +52,7 @@ injectGlobal`
   button {  font-family: 'radnika_next'; }
 `;
 
-export class Page extends Component {
+class Page extends Component {
   render() {
     return (
       <ThemeProvider theme={theme}>
